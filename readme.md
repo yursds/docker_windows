@@ -28,6 +28,10 @@ Windows inside a Docker container.
 
 Via Docker Compose:
 
+```bash
+docker compose up -d
+```
+
 ```yaml
 services:
   windows:
