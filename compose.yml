@@ -15,6 +15,7 @@ services:
       - /home/yurs/windows/bridge_linux_win:/data
     devices:
       - /dev/kvm
+      - /dev/net/tun
     cap_add:
       - NET_ADMIN
     ports:
